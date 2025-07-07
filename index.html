@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
+    />
+    <title>
+      Prácticas restaurativas para la resolución de conflictos y una vida libre
+      de violencia
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <script src="js/data.js"></script>
+  </head>
+  <body>
+    <div id="book-container">
+      <div id="book-title-container" class="visible-lg">
+        <div id="book-title">
+          Prácticas restaurativas para la resolución de conflictos y una vida
+          libre de violencia
+        </div>
+      </div>
+      <div id="menu-header">
+        <div id="button-container" class="visible-md">
+        </div>
+        <div id="book-title-container" class="visible-md">
+          <div id="book-title">Prácticas restaurativas LIBRO 1</div>
+        </div>
+        <div id="menu-buttons" class="visible-lg">
+          <button class="jump-buttons" id="home-button" onclick="setPage(2)">
+            <i class="glyphicon glyphicon-home"></i>
+          </button>
+          <button class="jump-buttons" onclick="setPage(0)">Inicio</button>
+        </div>
+        <div id="menu-image-container" class="pull-right">
+          <img id="logo" src="images/unefco_log.png" />
+        </div>
+      </div>
+      <div id="page-container">
+        <nav id="index-permanent" class="navbar navbar-default">
+          <div class="container">
+            <div id="button-index-container">
+              <button
+                id="navbarToggle"
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#collapsable-nav"
+                aria-expanded="false"
+                onclick="handleToggleAction()"
+              >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+              <ul class="index-desp nav navbar-nav navbar-right">
+                <li class="list-item">
+                  <div class="list-button">
+                    <button
+                      class="index-buttons"
+                      id="index-button1"
+                      onclick="setPage(3)"
+                    >
+                      Presentaci&oacuten
+                    </button>
+                  </div>
+                </li>
+                <li class="list-item list-item--click">
+                  <div class="list-button" id="tema1">
+                    <button
+                      class="index-buttons"
+                      id="index-button2"
+                      onclick="setVisible(1)"
+                    >
+                      TEMA 1&nbsp&nbsp
+                    </button>
+                  </div>
+                  <ul class="list-show" id="show1">
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button3"
+                          onclick="setPage(6)"
+                        >
+                          &nbsp&nbsp&nbspActividad de inicio
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button4"
+                          onclick="setPage(7)"
+                        >
+                          &nbsp&nbsp&nbspNormativa internacional
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button5"
+                          onclick="setPage(8)"
+                        >
+                          &nbsp&nbsp&nbspNormativa nacional
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button6"
+                          onclick="setPage(9)"
+                        >
+                          &nbsp&nbsp&nbspNormativa Ministerio
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button7"
+                          onclick="setPage(11)"
+                        >
+                          &nbsp&nbsp&nbspActividad Sugerida
+                        </button>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item list-item--click">
+                  <div class="list-button">
+                    <button
+                      class="index-buttons"
+                      id="index-button8"
+                      onclick="setVisible(2)"
+                    >
+                      TEMA 2
+                    </button>
+                  </div>
+                  <ul class="list-show" id="show2">
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button9"
+                          onclick="setPage(13)"
+                        >
+                          &nbsp&nbsp&nbspActividad de inicio
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button10"
+                          onclick="setPage(14)"
+                        >
+                          &nbsp&nbsp&nbspConflicto educativo
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button11"
+                          onclick="setPage(17)"
+                        >
+                          &nbsp&nbsp&nbspCaracterísticas conflicto
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button12"
+                          onclick="setPage(22)"
+                        >
+                          &nbsp&nbsp&nbspFactores de riesgo
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button13"
+                          onclick="setPage(28)"
+                        >
+                          &nbsp&nbsp&nbspHerram. restaurativas
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button14"
+                          onclick="setPage(32)"
+                        >
+                          &nbsp&nbsp&nbspActividad Sugerida
+                        </button>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item list-item--click">
+                  <div class="list-button">
+                    <button
+                      class="index-buttons"
+                      id="index-button15"
+                      onclick="setVisible(3)"
+                    >
+                      TEMA 3
+                    </button>
+                  </div>
+                  <ul class="list-show" id="show3">
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button16"
+                          onclick="setPage(34)"
+                        >
+                          &nbsp&nbsp&nbspActividad de inicio
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button17"
+                          onclick="setPage(35)"
+                        >
+                          &nbsp&nbsp&nbspEnfoque restaurativo
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button18"
+                          onclick="setPage(37)"
+                        >
+                          &nbsp&nbsp&nbspDiferentes enfoques
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button19"
+                          onclick="setPage(41)"
+                        >
+                          &nbsp&nbsp&nbspPrincipios restaurativos
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button20"
+                          onclick="setPage(44)"
+                        >
+                          &nbsp&nbsp&nbspDisciplina social
+                        </button>
+                      </div>
+                    </li>
+                    <li class="list-inside">
+                      <div class="list-button">
+                        <button
+                          class="index-buttons"
+                          id="index-button21"
+                          onclick="setPage(47)"
+                        >
+                          &nbsp&nbsp&nbspActividad sugerida
+                        </button>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item">
+                  <div class="list-button">
+                    <button
+                      class="index-buttons"
+                      id="index-button22"
+                      onclick="setPage(48)"
+                    >
+                      Glosario
+                    </button>
+                  </div>
+                </li>
+                <li class="list-item">
+                  <div class="list-button">
+                    <button
+                      class="index-buttons"
+                      id="index-button23"
+                      onclick="setPage(49)"
+                    >
+                      Bibliograf&iacutea
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div id="page-content"></div>
+      </div>
+
+      <div id="adv-buttons">
+        <button class="nav-buttons" onclick="prevPage()"><i class="glyphicon glyphicon-arrow-left"></i> Anterior</button>
+        <button class="jump-buttons" id="home-button" onclick="setPage(2)">
+          <i class="glyphicon glyphicon-home"></i>
+        </button>
+        <button class="nav-buttons" onclick="nextPage()">Siguiente <i class="glyphicon glyphicon-arrow-right"></i> </button>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      document.addEventListener("touchstart", function () {}, true);
+    </script>
+  </body>
+</html>

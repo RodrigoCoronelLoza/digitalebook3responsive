@@ -1,0 +1,4576 @@
+:root {
+  --primary: #030d7b;
+  --auxiliar: #7000e0;
+  --secondary: #2f67e1;
+  --backgroud: #c0f9ff;
+  --hoverbuttons1: #5da7e1;
+  --hoverbuttons0: #ca05fa;
+  --auxiliar2: #7e64dc;
+}
+html {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+body {
+  font-family: Roboto;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+#book-container {
+  background: white;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 0.8%;
+  height: 90%;
+}
+
+#page-container {
+  width: 100%;
+  height: 88%;
+  display: flex;
+}
+
+/* Planilla A */
+
+.Alayout {
+  height: 100%;
+  width: 100%;
+  margin-right: 2%;
+}
+
+/* Botones de navegacion */
+.nav-buttons {
+  color: white;
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+
+  font-size: 1em;
+  border-radius: 100px;
+  width: 8em;
+  height: 80%;
+  border: none;
+  box-shadow: 5px 7px 10px var(--primary);
+}
+
+.nav-buttons:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.jump-buttons {
+  color: white;
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+  font-size: 1em;
+  border-radius: 100px;
+  border: none;
+  width: 8em;
+  height: 70%;
+  box-shadow: 5px 7px 10px var(--backgroud);
+}
+
+.jump-buttons:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+#home-button {
+  width: 2em;
+}
+/* Header del menu */
+#menu-header {
+  margin-left: 2%;
+  display: flex;
+  height: 10%;
+}
+#menu-buttons {
+  text-align: left;
+  width: 70%;
+}
+#menu-image-container {
+  width: 30%;
+}
+
+#menu-image-container #logo {
+  height: 100%;
+  width: 80%;
+}
+/* Botones inferiores */
+#adv-buttons {
+  text-align: right;
+  height: 7%;
+}
+/* Titulos y texto en general */
+.titles {
+  text-align: left;
+  font-size: 1.6vw;
+  color: var(--secondary);
+}
+
+.text {
+  text-align: justify;
+}
+
+/* Plantilla B */
+.Blayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 1.1em;
+  height: 100%;
+  font-size: 1.2vmax;
+  width: 85%;
+  background-image: url("../images/CHA_10.jpeg");
+  background-size: 100% 100%;
+}
+
+.Blayout #Blayout-container {
+  height: 100%;
+}
+.Blayout #Btitle {
+  margin: 0;
+  height: 5%;
+}
+
+.Blayout #Blayout-container #Btext-container {
+  margin: 0;
+  height: 90%;
+  position: relative;
+}
+
+/* #region */
+/* Plantilla C */
+
+.Clayout {
+  text-align: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vmax;
+  width: 95%;
+  background-image: url("../images/CHA_10.jpeg");
+  background-size: 100% 100%;
+}
+
+.Clayout #Clayout-container {
+  height: 100%;
+}
+
+.Clayout #Clayout-container #Ctitle {
+  margin: 0;
+  height: 10%;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 90%;
+}
+
+.Clayout .button-index-container {
+  background-color: transparent;
+  display: flex;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 1.2vw;
+}
+
+.Clayout .button-index-container .index-big-buttons {
+  background-color: transparent;
+  font-size: 1.5vw;
+  margin: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+.Clayout .button-index-container .index-big-buttons:hover {
+  background-image: linear-gradient(to right, var(--secondary), var(--primary));
+  color: white;
+}
+
+/* Plantilla D */
+
+.Dlayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vmax;
+  width: 85%;
+  background-image: url("../images/CHA_10.jpeg");
+  background-size: 100% 100%;
+}
+.Dlayout h1 {
+  margin: 0;
+  height: 10%;
+}
+
+.Dlayout #Dlayout-container {
+  display: flex;
+  height: 90%;
+}
+.Dlayout #Dlayout-container #Dbutton {
+  width: 8%;
+  height: 100%;
+}
+
+.Dlayout #Dlayout-container #Dbutton #Dmodals-container {
+  height: 100%;
+}
+
+.Dlayout #Dlayout-container #Dbutton #Dmodals-container #modal-container0 {
+  height: 10%;
+  width: 100%;
+}
+
+.Dlayout #Dlayout-container #Dbutton #Dmodals-container #modal-container1 {
+  height: 90%;
+  width: 100%;
+  margin: 0;
+}
+
+.Dlayout #Dbutton .open-button0 {
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  font-size: 1.2vw;
+}
+.Dlayout #Dbutton .open-button0:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
+}
+.Dlayout #Dlayout-container #Dbutton .open-button1 {
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  width: 100%;
+  margin-top: 20%;
+  height: 80%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  font-size: 1.1vmax;
+}
+
+.Dlayout #Dlayout-container #Dbutton .open-button1:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
+}
+
+.Dlayout #Dtext {
+  width: 55%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.Dlayout #Dimage-container {
+  width: 45%;
+  height: 90%;
+}
+
+.Dlayout #Dimage-container #Dimage {
+  height: 100%;
+  width: 100%;
+}
+
+/* Plantilla E */
+
+.Elayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.3vw;
+  width: 85%;
+  background-image: url("../images/CHA_14.jpeg");
+  background-size: 100% 100%;
+}
+
+.Elayout
+  #Elayout-container
+  #index-button-container
+  #index-buttons
+  .button-index-container {
+  height: 25%;
+}
+
+.Elayout
+  #Elayout-container
+  #index-button-container
+  #index-buttons
+  .jump-buttons {
+  width: 85%;
+  height: 70%;
+  font-size: 0.9em;
+}
+
+/* Plantilla F */
+
+.Flayout {
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 100%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_8.jpeg");
+  background-size: 100% 100%;
+}
+
+/* Plantilla G */
+
+.Glayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_10.jpeg");
+  background-size: 100% 100%;
+}
+
+.Glayout #Glayout-container {
+  height: 100%;
+}
+
+.Glayout #Glayout-container #Grow1 {
+  width: 100%;
+  height: 40%;
+}
+
+.Glayout #Glayout-container #Grow1 #Gtitle1 {
+  margin: 0;
+  height: 15%;
+  margin-top: 1em;
+}
+.Glayout #Glayout-container #Grow2 {
+  width: 100%;
+  height: 55%;
+}
+.Glayout #Glayout-container #Grow2 #Gtitle2 {
+  margin: 0;
+  height: 20%;
+}
+
+.Glayout #Glayout-container #Grow2 #Grow3 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.Glayout #Grow3 #Gmodal-container {
+  width: 40%;
+  height: 90%;
+}
+
+.Glayout #Grow3 #Gnext-modal {
+  width: 60%;
+}
+
+.Glayout #Grow3 #Gmodal-container #modal-container0 {
+  height: 100%;
+}
+
+.Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0 {
+  background-image: linear-gradient(to right, var(--primary), var(--auxiliar));
+  color: white;
+  width: 60%;
+  height: 80%;
+  border-radius: 50%;
+  font-size: 1.1vw;
+  box-shadow: 8px 8px 10px var(--backgroud);
+  border: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons0)
+  );
+}
+
+/* Plantilla H */
+
+.Hlayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 95%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_10.jpeg");
+  background-size: 100% 100%;
+}
+
+.Hlayout #Hlayout-container {
+  height: 100%;
+  width: 100%;
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container0,
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container1,
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container2,
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container3,
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container4 {
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 100%;
+  width: 70%;
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container5,
+#modal-container6,
+#modal-container7,
+#modal-container8,
+#modal-container9 {
+  width: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 100%;
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0 {
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1 {
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2 {
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3 {
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4 {
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hmodals-container2 .open-button5 {
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hmodals-container2 .open-button6 {
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hmodals-container2 .open-button7 {
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hmodals-container2 .open-button8 {
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hmodals-container2 .open-button9 {
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button5:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button6:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button7:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button8:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button9:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+/* Plantilla I */
+
+.Ilayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_8.jpeg");
+  background-size: 100% 100%;
+}
+
+/* #region */
+/* Plantilla J */
+
+.Jlayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 95%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_8.jpeg");
+  background-size: 100% 100%;
+}
+
+.Jlayout #Jlayout-container {
+  height: 100%;
+}
+
+.Jlayout #Jlayout-container #Jtitle {
+  height: 10%;
+  margin: 0;
+}
+.Jlayout #Jlayout-container #Jtext-container {
+  height: 8%;
+}
+
+.Jlayout #Jlayout-container #Jcarousel-container {
+  height: 80%;
+  position: relative;
+}
+
+/* Plantilla K */
+
+.Klayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_14.jpeg");
+  background-size: 100% 100%;
+}
+
+.Klayout #Klayout-container {
+  height: 100%;
+}
+.Klayout #Klayout-container #Ktitle {
+  margin: 0;
+  height: 8%;
+}
+.Klayout #Klayout-container #Ktext-container1,
+#Ktext-container2 {
+  margin-top: 2%;
+  margin: 0;
+  height: 30%;
+  position: relative;
+}
+
+.Klayout #Klayout-container #Ktext1,
+#Ktext2 {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.Klayout #Klayout-container #Ktext1 {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: var(--backgroud);
+}
+.Klayout #Klayout-container #Kimage-container {
+  height: 30%;
+}
+
+.Klayout #Klayout-container #Kimage-container #Kbanner {
+  height: 100%;
+  width: 80%;
+}
+
+/* Plantilla L */
+
+.Llayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 95%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_10.jpeg");
+  background-size: 100% 100%;
+}
+
+.Llayout #Llayout-container {
+  height: 100%;
+}
+
+.Llayout #Llayout-container #Ltitle {
+  margin: 0;
+  height: 10%;
+}
+
+.Llayout #Llayout-container #Ltext-container {
+  margin-top: 10px;
+  margin: 0;
+  height: 45%;
+  position: relative;
+}
+
+.Llayout #Llayout-container #Lmodals-container {
+  text-align: center;
+  padding-right: auto;
+  display: flex;
+  height: 30%;
+}
+
+.Llayout #Llayout-container #Lmodals-container #modal-container0,
+#modal-container1,
+#modal-container2,
+#modal-container3,
+#modal-container4 {
+  width: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 100%;
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button0,
+.open-button1,
+.open-button2,
+.open-button3,
+.open-button4 {
+  background-image: linear-gradient(to right, var(--secondary), var(--primary));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1.1vw;
+  box-shadow: 10px 10px 5px var(--auxiliar2);
+  border: none;
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button0:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button1:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button2:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button3:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button4:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+/* Plantilla M */
+
+.Mlayout {
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 95%;
+  width: 85%;
+  font-size: 1.2vw;
+}
+
+.Mlayout #Mlayout-container {
+  height: 100%;
+}
+
+.Mlayout #Mlayout-container #Mtitle {
+  margin: 0;
+  height: 10%;
+}
+
+.Mlayout #Mcarousel-container {
+  height: 58%;
+  background-color: var(--backgroud);
+  padding-top: 1em;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.Mlayout #Mcarousel-container #Mbuttons {
+  width: 80%;
+  height: 14%;
+  margin: auto;
+  position: relative;
+  background-color: white;
+}
+
+.Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container {
+  display: inline-block;
+  width: 96%;
+  height: 100%;
+  padding-left: 0%;
+  margin-left: 2%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.Mlayout #Mcarousel-container #Mparag-container {
+  background-color: white;
+  width: 80%;
+  height: 74%;
+  margin: auto;
+  padding-top: 1%;
+}
+
+.Mlayout #Mcarousel-container #Mparag-container #Mparag {
+  height: 100%;
+  margin: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container .paragButton {
+  background-color: var(--secondary);
+  color: white;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  width: 7vw;
+  margin-right: 1%;
+  font-size: 1vw;
+}
+
+/* Plantilla N */
+
+.Nlayout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 95%;
+  font-size: 1.2vw;
+  width: 85%;
+  background-image: url("../images/CHA_10.jpeg");
+  background-size: 100% 100%;
+}
+
+.Nlayout #Nlayout-container {
+  height: 100%;
+}
+
+.Nlayout #Nlayout-container #Ntitle {
+  margin: 0;
+  height: 10%;
+}
+
+.Nlayout #Nlayout-container #Ntext-container {
+  height: 90%;
+  display: flex;
+}
+
+.Nlayout #Nlayout-container #Ntext-container #Nrow1,
+#Nrow2 {
+  width: 50%;
+  height: 100%;
+}
+
+.Olayout {
+  padding-left: 1%;
+  padding-right: 1%;
+  line-height: 1.1em;
+  height: 100%;
+  font-size: 1.1vmax;
+  width: 85%;
+  background-image: url("images/CHA_14.jpeg");
+  background-size: 100% 100%;
+}
+
+.Olayout #Olayout-container {
+  height: 100%;
+}
+.Olayout #Otitle {
+  margin: 0;
+  height: 5%;
+}
+
+.Olayout #Olayout-container #Oimage-container {
+  margin: 0;
+  height: 90%;
+  width: 95%;
+}
+
+.Olayout #Olayout-container #Oimage-container #Oimage {
+  height: 100%;
+  width: 100%;
+}
+
+/* Plantilla P */
+
+.Playout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vmax;
+  width: 85%;
+  background-image: url("images/CHA_14.jpeg");
+  background-size: 100% 100%;
+}
+.Playout h1 {
+  margin: 0;
+  height: 10%;
+}
+
+.Playout #Playout-container {
+  display: flex;
+  height: 90%;
+}
+.Playout #Playout-container #Pbutton {
+  width: 5%;
+  height: 100%;
+}
+
+.Playout #Playout-container #Pbutton #Pmodals-container {
+  height: 100%;
+}
+
+.Playout #Playout-container #Pbutton #Pmodals-container #modal-container0 {
+  height: 10%;
+  width: 100%;
+}
+
+.Playout #Playout-container #Pbutton #Pmodals-container #modal-container1 {
+  height: 90%;
+  width: 100%;
+  margin: 0;
+}
+
+.Playout #Pbutton .open-button0 {
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  font-size: 1.2vw;
+}
+.Playout #Pbutton .open-button0:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
+}
+.Playout #Playout-container #Pbutton .open-button1 {
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  width: 100%;
+  margin-top: 20%;
+  height: 80%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  font-size: 1.1vmax;
+}
+
+.Playout #Playout-container #Pbutton .open-button1:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
+}
+
+.Playout #Pimage-container {
+  width: 95%;
+  height: 90%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.Playout #Pimage-container #Pimage {
+  height: 100%;
+  width: 100%;
+}
+
+/* #endregion */
+/* Barra lateral del indice */
+
+#index-permanent {
+  background-color: white;
+  font-size: 1.2vmax;
+  min-height: 0;
+  width: 15%;
+  border: none;
+  border-radius: 0.3em;
+}
+
+#index-permanent button.navbar-toggle,
+#index-permanent .icon-bar {
+  width: 100%;
+  border: 1px solid var(--secondary);
+}
+
+#index-permanent .container #button-index-container #navbarToggle {
+  border: 1px solid var(--secondary);
+  height: 3rem;
+  width: 6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: -3.7rem;
+  left: 0;
+  background-color: white;
+}
+
+#index-permanent .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#index-permanent .container #button-index-container {
+  width: 100%;
+  height: 0;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.index-desp {
+  margin: 0;
+  padding: 0;
+}
+.list-item {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}
+#show1 {
+  list-style-type: none;
+  padding-left: 0;
+  transition: height 0.4s;
+  height: 0;
+}
+#show2 {
+  list-style-type: none;
+  padding-left: 0;
+  transition: height 0.4s;
+  height: 0;
+}
+#show3 {
+  list-style-type: none;
+  padding-left: 0;
+  transition: height 0.4s;
+  height: 0;
+}
+#collapsable-nav {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.list-button {
+  padding: 0;
+  height: 1.5em;
+  width: 100%;
+}
+
+.index-buttons {
+  background-color: white;
+  font-size: 1vw;
+  margin: 0;
+  padding: auto;
+  border: none;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+}
+.index-buttons:hover {
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  color: white;
+}
+/* Pop-ups */
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 80%;
+  max-width: 80%;
+}
+
+.mymodal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.mymodal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--secondary);
+  background-color: var(--primary);
+  color: white;
+}
+
+.mymodal-header .title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.mymodal-header .close-button {
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.mymodal-body {
+  text-align: left;
+  height: 90%;
+  width: 100%;
+}
+
+.mymodal-body #image-modal-body {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #book-title-container {
+    height: 2%;
+  }
+  #book-title {
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    width: 48%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    position: relative;
+    bottom: 1em;
+    font-size: 1.2vw;
+  }
+  .Alayout-container {
+    height: 100%;
+    position: relative;
+  }
+  .Alayout-container #caratula {
+    height: 100%;
+    width: 100%;
+  }
+  #comenzar-button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vw;
+    padding: 0;
+    border: 0;
+    margin-left: 0;
+  }
+
+  .button-caratula-container {
+    position: absolute;
+    bottom: 15%;
+    left: 4%;
+    width: 20vw;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Blayout #Blayout-container #Btext {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .Clayout #Cindex-buttons {
+    height: 90%;
+    display: flex;
+  }
+
+  .Clayout #Cindex-buttons #column1 {
+    width: 33%;
+  }
+
+  .Clayout #Cindex-buttons #column2 {
+    width: 33%;
+  }
+  .Clayout #Cindex-buttons #column3 {
+    width: 34%;
+  }
+  .Elayout #Elayout-container {
+    display: flex;
+    height: 100%;
+  }
+
+  .Elayout #Eimage-container {
+    width: 60%;
+    height: auto;
+  }
+  .Elayout #Elayout-container #index-button-container {
+    width: 40%;
+    height: 100%;
+    position: relative;
+  }
+  .Elayout #Eimage-container #Eimage {
+    width: 100%;
+    height: 100%;
+  }
+  .Elayout #Elayout-container #index-button-container #index-buttons {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 70%;
+  }
+  .Flayout #Flayout-container {
+    display: flex;
+    height: 100%;
+  }
+  .Flayout #Flayout-container #Fcolumn1 {
+    width: 60%;
+    padding: 20px;
+  }
+
+  .Flayout #Flayout-container #Fcolumn1 #act-inicio-img {
+    height: 15%;
+    width: 70%;
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 {
+    width: 40%;
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flayout-img {
+    width: 80%;
+    height: 75%;
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Fdownload-button {
+    margin-top: 1em;
+    width: 80%;
+    height: 15%;
+    font-size: 1.2vw;
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container {
+    margin-top: 0.9em;
+    width: 80%;
+    height: 15%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--backgroud);
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container #Flink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: white;
+  }
+  .Hlayout #Hlayout-container #Hrow1 {
+    height: 48%;
+    position: relative;
+    margin-bottom: 2%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 #Htitle1 {
+    height: 10%;
+    margin: 0;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 #Htext1 {
+    height: 50%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 {
+    text-align: center;
+    padding-right: auto;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    bottom: 4%;
+    width: 100%;
+  }
+  .Hlayout #Hlayout-container #Hrow2 {
+    height: 45%;
+    position: relative;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Htitle2 {
+    height: 10%;
+    margin: 0;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Htext2 {
+    height: 35%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 {
+    text-align: center;
+    padding-right: auto;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow1
+    #Hmodals-container1
+    #Hmodals-container-ind0,
+  #Hmodals-container-ind1,
+  #Hmodals-container-ind2,
+  #Hmodals-container-ind3,
+  #Hmodals-container-ind4 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow2
+    #Hmodals-container2
+    #Hmodals-container-ind5,
+  #Hmodals-container-ind6,
+  #Hmodals-container-ind7,
+  #Hmodals-container-ind8,
+  #Hmodals-container-ind9 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Ilayout #Ilayout-container {
+    height: 100%;
+    display: flex;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn1 {
+    width: 50%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn1 #Icolumn1-image-container {
+    width: 100%;
+    height: 20%;
+    margin-top: 9%;
+  }
+
+  .Ilayout
+    #Ilayout-container
+    #Icolumn1
+    #Icolumn1-image-container
+    #Iimage-column1 {
+    width: 100%;
+    height: 70%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn1 #Ititle {
+    margin-left: 3%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn1 #Itext-container {
+    height: 60%;
+    position: relative;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn1 #Itext-container #Itext {
+    margin-left: 3%;
+    margin-right: 3%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 {
+    width: 25%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2-image-container {
+    height: 60%;
+    margin: 5%;
+    margin-top: 20%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2-image-container #Iimage-column2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Idownload-button {
+    margin-top: 2em;
+    width: 80%;
+    height: 15%;
+    font-size: 1.2em;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container {
+    margin-top: 2em;
+    width: 80%;
+    height: 15%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--primary),
+      var(--secondary)
+    );
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px var(--backgroud);
+  }
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container #Ilink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: white;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn3 {
+    width: 25%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn3-image-container {
+    height: 80%;
+    margin: 5%;
+    margin-top: 20%;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn3-image-container #Iimage-column3 {
+    width: 100%;
+    height: 100%;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel {
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel #Jimage {
+    height: 100%;
+    width: 100%;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container #JnextSlide-container {
+    position: absolute;
+    margin: 0;
+    bottom: 35%;
+    left: 90%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 5%;
+    height: 5em;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container #JprevSlide-container {
+    position: absolute;
+    margin: 0;
+    bottom: 35%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 5%;
+    height: 5em;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--secondary)
+    );
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    font-size: 2.5em;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+
+  .Llayout #Llayout-container #Ltext {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .Llayout #Llayout-container #Lmodals-container #Lmodals-container-ind0,
+  #Lmodals-container-ind1,
+  #Lmodals-container-ind2,
+  #Lmodals-container-ind3,
+  #Lmodals-container-ind4 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  .Mlayout #Mlayout-container #Mtext-container {
+    margin-top: 2em;
+    margin: 0;
+    height: 30%;
+    position: relative;
+  }
+
+  .Mlayout #Mlayout-container #Mtext {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .Nlayout #Nlayout-container #Ntext-container #Ntext-containerLeft,
+  #Ntext-containerRight {
+    height: 70%;
+    position: relative;
+  }
+
+  .Nlayout #Nlayout-container #Ntext-container #Ltext1,
+  #Ltext2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .Nlayout #Nlayout-container #Nmodals-containerLeft,
+  #Nmodals-containerRight {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerLeft #modal-container0 {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight #modal-container1 {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerLeft .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8vw;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-container .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight .open-button1 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8vw;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+  .Nlayout #Nlayout-container #Nmodals-container .open-button1:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    height: auto;
+  }
+  #book-container {
+    height: auto;
+  }
+  #button-container {
+    width: 15%;
+  }
+  #book-title-container {
+    width: 70%;
+    height: 2%;
+    font-size: 1.2em;
+  }
+  #book-title {
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    width: 50%;
+    border-radius: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+  }
+  #menu-header {
+    height: auto;
+  }
+  #page-container {
+    height: auto;
+  }
+  #adv-buttons {
+    padding-bottom: 2em;
+  }
+
+  .Alayout {
+    height: 85vh;
+    margin-top: 0;
+  }
+  .Alayout-container {
+    margin-top: 0;
+    height: 100%;
+    position: relative;
+  }
+  .Alayout-container #caratula {
+    height: 100%;
+    width: 100%;
+  }
+
+  .button-caratula-container {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    width: 15em;
+    height: 4em;
+  }
+  #comenzar-button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+  }
+  .Blayout {
+    height: auto;
+    min-height: 90vh;
+  }
+  .Blayout #Blayout-container {
+    height: auto;
+  }
+  .Blayout #Btitle {
+    height: auto;
+  }
+  .Blayout #Blayout-container #Btext-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: auto;
+  }
+  .Clayout {
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Clayout #Clayout-container {
+    height: auto;
+  }
+  .Clayout #Clayout-container #Ctitle {
+    padding-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Clayout #Clayout-container #Cindex-buttons {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .Clayout .button-index-container {
+    font-size: 1em;
+  }
+  .Clayout .button-index-container .index-big-buttons {
+    font-size: 1em;
+  }
+  .Dlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Dlayout h1 {
+    margin: 0;
+    height: auto;
+    margin-top: 1em;
+    font-size: 1.8em;
+  }
+  .Dlayout #Dlayout-container {
+    display: flex;
+    height: auto;
+  }
+  .Dlayout #Dlayout-container #Dbutton {
+    width: 10%;
+    height: 35em;
+  }
+
+  .Elayout {
+    height: auto;
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    min-height: 90vh;
+  }
+
+  .Elayout #Elayout-container {
+    height: auto;
+  }
+
+  .Elayout #Eimage-container {
+    height: 30em;
+    padding: 0;
+  }
+  .Elayout #Eimage-container #Eimage {
+    width: 100%;
+    height: 100%;
+  }
+  .Elayout #Elayout-container #index-button-container {
+    height: 30em;
+    position: relative;
+  }
+
+  .Elayout #Elayout-container #index-button-container #index-buttons {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 70%;
+  }
+  .Elayout
+    #Elayout-container
+    #index-button-container
+    #index-buttons
+    .button-index-container {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+  .Elayout
+    #Elayout-container
+    #index-button-container
+    #index-buttons
+    .jump-buttons {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+  }
+  .Flayout {
+    height: auto;
+    width: 100%;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Flayout #Flayout-container {
+    height: auto;
+  }
+  .Flayout #Flayout-container #Fcolumn1 {
+    margin-top: 2em;
+  }
+  .Flayout #Flayout-container #Fcolumn1 .titles {
+    font-size: 1.5em;
+  }
+  .Flayout #Flayout-container #Fcolumn1 #act-inicio-img {
+    width: 70%;
+  }
+  .Flayout #Flayout-container #Fcolumn2 {
+    margin-top: 2em;
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Flayout-img {
+    width: 100%;
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 5em;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--backgroud);
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container #Flink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+  }
+  .Glayout {
+    height: auto;
+    font-size: 1.2em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Glayout #Glayout-container {
+    height: auto;
+  }
+  .Glayout #Glayout-container #Grow1 {
+    height: auto;
+  }
+  .Glayout #Glayout-container #Grow1 #Gtitle1 {
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Glayout #Glayout-container #Grow2 {
+    width: 100%;
+    height: auto;
+  }
+  .Glayout #Glayout-container #Grow2 #Gtitle2 {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+  .Glayout #Glayout-container #Grow2 #Grow3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .Glayout #Grow3 #Gmodal-container {
+    width: 40%;
+    height: auto;
+  }
+
+  .Glayout #Grow3 #Gnext-modal {
+    width: 60%;
+  }
+
+  .Glayout #Grow3 #Gmodal-container #modal-container0 {
+    height: 100%;
+  }
+
+  .Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--primary),
+      var(--auxiliar)
+    );
+    color: white;
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+    font-size: 1.1vw;
+    box-shadow: 8px 8px 10px var(--backgroud);
+    border: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar2),
+      var(--hoverbuttons0)
+    );
+  }
+
+  .Hlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+
+  .Hlayout #Hlayout-container {
+    height: auto;
+    width: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 {
+    height: auto;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Htitle1 {
+    height: auto;
+    margin: 0;
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Htext1 {
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  .Hlayout #Hlayout-container #Hrow2 {
+    height: auto;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Htitle2 {
+    height: auto;
+    margin: 0;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Htext2 {
+    height: auto;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow1
+    #Hmodals-container1
+    #Hmodals-container-ind0,
+  #Hmodals-container-ind1,
+  #Hmodals-container-ind2,
+  #Hmodals-container-ind3,
+  #Hmodals-container-ind4 {
+    margin-bottom: 1em;
+    width: 20%;
+    display: flex;
+    height: 6em;
+    justify-content: center;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container0,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container1,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container2,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container3,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container4 {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    width: 90%;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow2
+    #Hmodals-container2
+    #Hmodals-container-ind5,
+  #Hmodals-container-ind6,
+  #Hmodals-container-ind7,
+  #Hmodals-container-ind8,
+  #Hmodals-container-ind9 {
+    margin-bottom: 1em;
+    width: 20%;
+    display: flex;
+    height: 6em;
+    justify-content: center;
+  }
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container5,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container6,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container7,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container8,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container9 {
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4 {
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button5,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button6,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button7,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button8,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button9 {
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+  .Ilayout {
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Ilayout #Ilayout-container {
+    height: auto;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 {
+    margin-top: 1em;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 #Icolumn1-image-container {
+    width: 100%;
+  }
+  .Ilayout
+    #Ilayout-container
+    #Icolumn1
+    #Icolumn1-image-container
+    #Iimage-column1 {
+    width: 100%;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 #Ititle {
+    font-size: 1.8em;
+  }
+  .Ilayout #Ilayout-container #Icolumn2 {
+    padding-top: 1em;
+  }
+  .Ilayout #Ilayout-container #Icolumn2-image-container {
+    height: auto;
+  }
+  .Ilayout #Ilayout-container #Icolumn2-image-container #Iimage-column2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--primary),
+      var(--secondary)
+    );
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px var(--backgroud);
+  }
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container #Ilink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn3-image-container {
+    height: 80%;
+    margin: 5%;
+    margin-top: 1em;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn3-image-container #Iimage-column3 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Jlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+    min-height: 90vh;
+  }
+  .Jlayout #Jlayout-container #Jtitle {
+    height: auto;
+    margin-top: 1em;
+    font-size: 1.8em;
+  }
+  .Jlayout #Jlayout-container #Jtext-container {
+    margin-top: 1em;
+    height: auto;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel {
+    margin-top: 1em;
+    height: auto;
+    width: 100%;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel #Jimage {
+    height: auto;
+    width: 100%;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container #JnextSlide-container {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    right: 0;
+    width: 3em;
+    height: 5em;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container #JprevSlide-container {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 0;
+    width: 3em;
+    height: 5em;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    font-size: 2.5em;
+    border: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+
+  .Llayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+
+  .Llayout #Llayout-container {
+    height: auto;
+  }
+
+  .Llayout #Llayout-container #Ltitle {
+    margin-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+
+  .Llayout #Llayout-container #Ltext-container {
+    margin-top: 1em;
+    height: auto;
+  }
+
+  .Llayout #Llayout-container #Ltext {
+    height: auto;
+  }
+
+  .Llayout #Llayout-container #Lmodals-container {
+    text-align: center;
+    padding-right: auto;
+    display: flex;
+    height: auto;
+    margin-top: 1.5em;
+  }
+  .Llayout #Llayout-container #Lmodals-container #Lmodals-container-ind0,
+  #Lmodals-container-ind1,
+  #Lmodals-container-ind2,
+  #Lmodals-container-ind3,
+  #Lmodals-container-ind4 {
+    width: 20%;
+    display: flex;
+    height: 6em;
+    justify-content: center;
+    margin-bottom: 1.5em;
+  }
+  .Llayout #Llayout-container #Lmodals-container #modal-container0,
+  #modal-container1,
+  #modal-container2,
+  #modal-container3,
+  #modal-container4 {
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+
+  .Llayout #Llayout-container #Lmodals-container .open-button0,
+  .open-button1,
+  .open-button2,
+  .open-button3,
+  .open-button4 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    box-shadow: 10px 10px 5px var(--auxiliar2);
+    border: none;
+  }
+  .Mlayout {
+    padding-left: 1em;
+    padding-right: 1em;
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .Mlayout #Mlayout-container {
+    height: auto;
+  }
+  .Mlayout #Mlayout-container #Mtitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+
+  .Mlayout #Mlayout-container #Mtext-container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: auto;
+  }
+  .Mlayout #Mlayout-container #Mtext {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .Mlayout #Mcarousel-container {
+    height: auto;
+    border-radius: 1em;
+  }
+  .Mlayout #Mcarousel-container #Mbuttons {
+    width: 100%;
+    height: 4em;
+  }
+  .Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .Mlayout #Mcarousel-container #Mparag-container {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding-top: 2em;
+  }
+  .Mlayout #Mcarousel-container #Mparag-container #Mparag {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container .paragButton {
+    height: 3em;
+    border-radius: 1em;
+    width: 32%;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+  }
+
+  .Nlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Nlayout #Nlayout-container {
+    height: auto;
+  }
+  .Nlayout #Nlayout-container #Ntitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+  .Nlayout #Nlayout-container #Ntext-container {
+    height: auto;
+    display: block;
+    width: 100%;
+  }
+  .Nlayout #Nlayout-container #Ntext-container #Nrow1,
+  #Nrow2 {
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .Nlayout #Nlayout-container #Ntext-container #Ntext-containerLeft,
+  #Ntext-containerRight {
+    height: 20em;
+  }
+
+  .Nlayout #Nlayout-container #Ntext-container #Ltext1,
+  #Ltext2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .Nlayout #Nlayout-container #Nmodals-containerLeft,
+  #Nmodals-containerRight {
+    margin-top: 1em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerLeft #modal-container0 {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight #modal-container1 {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerLeft .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8vw;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-container .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight .open-button1 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8vw;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+  .Nlayout #Nlayout-container #Nmodals-container .open-button1:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+  .Olayout {
+    height: 100vh;
+    font-size: 1.1em;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    min-height: 90vh;
+  }
+
+  .Olayout #Olayout-container {
+    height: 100vh;
+  }
+  .Olayout #Otitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+  }
+
+  .Olayout #Olayout-container #Oimage-container {
+    width: 100%;
+  }
+
+  .Playout {
+    height: 100vh;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Playout h1 {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .Playout #Pbutton .open-button0 {
+    width: 150%;
+    height: 100%;
+    font-size: 1em;
+  }
+  .Playout #Playout-container #Pbutton .open-button1 {
+    width: 150%;
+    border-radius: 1em;
+    font-size: 1em;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    height: auto;
+  }
+  #book-container {
+    height: auto;
+  }
+  #menu-image-container {
+    width: 30%;
+  }
+  #menu-header {
+    height: auto;
+    display: inline;
+  }
+  #page-container {
+    height: auto;
+  }
+  #index-permanent {
+    width: 25%;
+  }
+
+  #adv-buttons {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+  .nav-buttons {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 10em;
+    height: 1.5em;
+  }
+  .jump-buttons {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 2em;
+  }
+  .index-buttons {
+    padding: 0;
+    font-size: 1em;
+  }
+  .Alayout {
+    height: 85vh;
+    margin-top: 0;
+  }
+  .Alayout-container {
+    margin-top: 0;
+    height: 100%;
+    position: relative;
+  }
+  .Alayout-container #caratula {
+    height: 100%;
+    width: 100%;
+  }
+
+  .button-caratula-container {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    width: 15em;
+    height: 4em;
+  }
+  #comenzar-button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+  }
+
+  .Blayout {
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Blayout #Blayout-container {
+    height: auto;
+  }
+  .Blayout #Btitle {
+    padding-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Blayout #Blayout-container #Btext-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: auto;
+  }
+  .Clayout {
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Clayout #Clayout-container {
+    height: auto;
+  }
+  .Clayout #Clayout-container #Ctitle {
+    padding-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Clayout #Clayout-container #Cindex-buttons {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .Clayout .button-index-container {
+    font-size: 1em;
+  }
+  .Clayout .button-index-container .index-big-buttons {
+    font-size: 1em;
+  }
+  .Dlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Dlayout h1 {
+    margin-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Dlayout #Dlayout-container {
+    display: block;
+    height: auto;
+  }
+  .Dlayout #Dlayout-container #Dbutton {
+    width: 100%;
+    height: auto;
+  }
+  .Dlayout #Dlayout-container #Dbutton #Dmodals-container {
+    height: 3em;
+    display: flex;
+    width: 100%;
+  }
+  .Dlayout #Dlayout-container #Dbutton #Dmodals-container #modal-container0 {
+    height: 100%;
+  }
+  .Dlayout #Dlayout-container #Dbutton #Dmodals-container #modal-container1 {
+    height: 100%;
+  }
+
+  .Dlayout #Dbutton .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar2),
+      var(--primary)
+    );
+    width: 90%;
+    height: 100%;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    font-size: 1em;
+  }
+  .Dlayout #Dbutton .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--hoverbuttons1)
+    );
+  }
+  .Dlayout #Dlayout-container #Dbutton .open-button1 {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar2),
+      var(--primary)
+    );
+    width: 90%;
+    height: 100%;
+    margin-top: 0;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    box-shadow: 8px 8px 5px var(--backgroud);
+    font-size: 1em;
+  }
+
+  .Dlayout #Dlayout-container #Dbutton .open-button1:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--hoverbuttons1)
+    );
+  }
+  .Dlayout #Dtext {
+    padding-bottom: 2em;
+  }
+
+  .Dlayout #Dimage-container {
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  .Dlayout #Dimage-container #Dimage {
+    height: 100%;
+    width: 100%;
+  }
+  .Elayout {
+    height: auto;
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    min-height: 90vh;
+  }
+  .Elayout #Elayout-container {
+    height: auto;
+  }
+  .Elayout #Eimage-container {
+    height: 30em;
+    padding: 0;
+  }
+  .Elayout #Eimage-container #Eimage {
+    width: 100%;
+    height: 100%;
+  }
+  .Elayout #Elayout-container #index-button-container {
+    height: 30em;
+    position: relative;
+  }
+  .Elayout #Elayout-container #index-button-container #index-buttons {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 70%;
+  }
+
+  .Elayout
+    #Elayout-container
+    #index-button-container
+    #index-buttons
+    .button-index-container {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+  .Elayout
+    #Elayout-container
+    #index-button-container
+    #index-buttons
+    .jump-buttons {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+  }
+  .Flayout {
+    height: auto;
+    width: 100%;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Flayout #Flayout-container {
+    height: auto;
+  }
+  .Flayout #Flayout-container #Fcolumn1 {
+    margin-top: 2em;
+  }
+  .Flayout #Flayout-container #Fcolumn1 .titles {
+    font-size: 1.5em;
+  }
+  .Flayout #Flayout-container #Fcolumn1 #act-inicio-img {
+    width: 70%;
+  }
+  .Flayout #Flayout-container #Fcolumn2 {
+    margin-top: 2em;
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Flayout-img {
+    width: 100%;
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 5em;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--backgroud);
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container #Flink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+  }
+  .Glayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+
+  .Glayout #Glayout-container {
+    height: auto;
+  }
+  .Glayout #Glayout-container #Grow1 {
+    margin-top: 1em;
+    width: 50%;
+    height: auto;
+  }
+  .Glayout #Glayout-container #Grow1 #Gtitle1 {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+  }
+
+  .Glayout #Glayout-container #Grow2 {
+    width: 50%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .Glayout #Glayout-container #Grow2 #Gtitle2 {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+  .Glayout #Glayout-container #Grow2 #Grow3 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Glayout #Grow3 #Gmodal-container {
+    width: 100%;
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .Glayout #Grow3 #Gnext-modal {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--primary),
+      var(--auxiliar)
+    );
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    font-size: 1em;
+    box-shadow: 8px 8px 10px var(--backgroud);
+    border: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar2),
+      var(--hoverbuttons0)
+    );
+  }
+
+  .Hlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Hlayout #Hlayout-container {
+    height: auto;
+    width: 100%;
+  }
+  .Hlayout #Hlayout-container #Hrow1 {
+    height: auto;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Htitle1 {
+    height: auto;
+    margin: 0;
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Htext1 {
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 {
+    height: auto;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Htitle2 {
+    height: auto;
+    margin: 0;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow2 #Htext2 {
+    height: auto;
+  }
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow1
+    #Hmodals-container1
+    #Hmodals-container-ind0,
+  #Hmodals-container-ind1,
+  #Hmodals-container-ind2,
+  #Hmodals-container-ind3,
+  #Hmodals-container-ind4 {
+    margin-bottom: 1em;
+    display: flex;
+    height: 3em;
+    justify-content: center;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container0,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container1,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    width: 90%;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container3,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container4 {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    width: 60%;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow2
+    #Hmodals-container2
+    #Hmodals-container-ind5,
+  #Hmodals-container-ind6,
+  #Hmodals-container-ind7,
+  #Hmodals-container-ind8,
+  #Hmodals-container-ind9 {
+    margin-bottom: 1em;
+    display: flex;
+    height: 3em;
+    justify-content: center;
+  }
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container5,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container6,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container7 {
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container8,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container9 {
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4 {
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button5,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button6,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button7,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button8,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button9 {
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+  .Ilayout {
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Ilayout #Ilayout-container {
+    height: auto;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 {
+    margin-top: 1em;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 #Icolumn1-image-container {
+    width: 100%;
+  }
+  .Ilayout
+    #Ilayout-container
+    #Icolumn1
+    #Icolumn1-image-container
+    #Iimage-column1 {
+    width: 100%;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 #Ititle {
+    font-size: 1.8em;
+  }
+  .Ilayout #Ilayout-container #Icolumn2 {
+    padding-top: 1em;
+  }
+  .Ilayout #Ilayout-container #Icolumn2-image-container {
+    height: auto;
+  }
+  .Ilayout #Ilayout-container #Icolumn2-image-container #Iimage-column2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 80%;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--primary),
+      var(--secondary)
+    );
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px var(--backgroud);
+  }
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container #Ilink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+  }
+
+  .Jlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+    min-height: 90vh;
+  }
+  .Jlayout #Jlayout-container #Jtitle {
+    height: auto;
+    margin-top: 1em;
+    font-size: 1.8em;
+  }
+  .Jlayout #Jlayout-container #Jtext-container {
+    margin-top: 1em;
+    height: auto;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container {
+    height: auto;
+    position: relative;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel {
+    height: auto;
+    width: 100%;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel #Jimage {
+    height: auto;
+    width: 100%;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #JnextSlide-container {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 3em;
+    height: 5em;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #JprevSlide-container {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 3em;
+    height: 5em;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    font-size: 2.5em;
+    border: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+
+  .Llayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Llayout #Llayout-container {
+    height: auto;
+  }
+  .Llayout #Llayout-container #Ltitle {
+    margin-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Llayout #Llayout-container #Ltext-container {
+    margin-top: 1em;
+    height: auto;
+  }
+  .Llayout #Llayout-container #Ltext {
+    margin: 0;
+    height: auto;
+  }
+  .Llayout #Llayout-container #Lmodals-container {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    height: auto;
+    margin-top: 1.5em;
+  }
+  .Llayout #Llayout-container #Lmodals-container #Lmodals-container-ind0,
+  #Lmodals-container-ind1,
+  #Lmodals-container-ind2,
+  #Lmodals-container-ind3,
+  #Lmodals-container-ind4 {
+    display: flex;
+    height: 3em;
+    justify-content: center;
+    margin-bottom: 1.5em;
+  }
+
+  .Llayout #Llayout-container #Lmodals-container #modal-container0,
+  #modal-container1,
+  #modal-container2 {
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+  .Llayout #Llayout-container #Lmodals-container #modal-container3,
+  #modal-container4 {
+    width: 53.3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+
+  .Llayout #Llayout-container #Lmodals-container .open-button0,
+  .open-button1,
+  .open-button2,
+  .open-button3,
+  .open-button4 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    box-shadow: 10px 10px 5px var(--auxiliar2);
+    border: none;
+  }
+  .Mlayout {
+    padding-left: 1em;
+    padding-right: 1em;
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .Mlayout #Mlayout-container {
+    height: auto;
+  }
+  .Mlayout #Mlayout-container #Mtitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+
+  .Mlayout #Mlayout-container #Mtext-container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: auto;
+  }
+  .Mlayout #Mlayout-container #Mtext {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .Mlayout #Mcarousel-container {
+    height: auto;
+    border-radius: 1em;
+  }
+  .Mlayout #Mcarousel-container #Mbuttons {
+    width: 100%;
+    height: 4em;
+  }
+  .Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .Mlayout #Mcarousel-container #Mparag-container {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding-top: 2em;
+  }
+  .Mlayout #Mcarousel-container #Mparag-container #Mparag {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container .paragButton {
+    height: 3em;
+    border-radius: 1em;
+    width: 32%;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+  }
+
+  .Nlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Nlayout #Nlayout-container {
+    height: auto;
+  }
+  .Nlayout #Nlayout-container #Ntitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+  .Nlayout #Nlayout-container #Ntext-container {
+    height: auto;
+    display: block;
+  }
+  .Nlayout #Nlayout-container #Ntext-container #Nrow1,
+  #Nrow2 {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    display: flex;
+  }
+  .Nlayout #Nlayout-container #Ntext-container #Ntext-containerLeft,
+  #Ntext-containerRight {
+    height: auto;
+    width: 70%;
+  }
+  .Nlayout #Nlayout-container #Ntext-container #Ltext1,
+  #Ltext2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .Nlayout #Nlayout-container #Nmodals-containerLeft,
+  #Nmodals-containerRight {
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerLeft #modal-container0 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight #modal-container1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+  .Nlayout #Nlayout-container #Nmodals-containerLeft .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8em;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-container .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight .open-button1 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8em;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+  .Nlayout #Nlayout-container #Nmodals-container .open-button1:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+  .Olayout {
+    height: 100vh;
+    font-size: 1.1em;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    min-height: 90vh;
+  }
+
+  .Olayout #Olayout-container {
+    height: 100vh;
+  }
+  .Olayout #Otitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+  }
+
+  .Olayout #Olayout-container #Oimage-container {
+    width: 100%;
+  }
+
+  .Playout {
+    height: 100vh;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Playout h1 {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .Playout #Pbutton .open-button0 {
+    width: 150%;
+    height: 100%;
+    font-size: 1em;
+  }
+  .Playout #Playout-container #Pbutton .open-button1 {
+    width: 150%;
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+  .mymodal {
+    height: 90vh;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  body {
+    height: auto;
+  }
+  #book-container {
+    height: auto;
+  }
+  #menu-image-container {
+    width: 50%;
+  }
+  #menu-header {
+    height: auto;
+    display: inline;
+  }
+  #page-container {
+    height: auto;
+    position: relative;
+  }
+
+  #index-permanent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    z-index: 100;
+    font-size: 2em;
+  }
+
+  .index-buttons {
+    font-size: 0.55em;
+    padding: 0;
+    padding-left: 0.5em;
+  }
+  #adv-buttons {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+
+  .nav-buttons {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 10em;
+    height: 2em;
+  }
+  .jump-buttons {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 2em;
+  }
+
+  .Alayout {
+    height: 95vh;
+    margin-top: 0;
+  }
+  .Alayout-container {
+    margin-top: 0;
+    height: 100%;
+    position: relative;
+  }
+  .Alayout-container #caratula {
+    height: 100%;
+    width: 100%;
+  }
+
+  .button-caratula-container {
+    position: absolute;
+    bottom: 8em;
+    left: 2em;
+    width: 10em;
+    height: 4em;
+  }
+  #comenzar-button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+  }
+
+  .Blayout {
+    height: auto;
+    min-height: 90vh;
+    width: 100%;
+    font-size: 1em;
+  }
+  .Blayout #Blayout-container {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .Blayout #Btitle {
+    padding-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Blayout #Blayout-container #Btext-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    height: auto;
+  }
+  .Clayout {
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Clayout #Clayout-container {
+    height: auto;
+  }
+  .Clayout #Clayout-container #Ctitle {
+    padding-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Clayout #Clayout-container #Cindex-buttons {
+    margin-bottom: 2em;
+  }
+  .Clayout .button-index-container {
+    font-size: 1em;
+  }
+  .Clayout .button-index-container .index-big-buttons {
+    font-size: 1em;
+  }
+
+  .Dlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Dlayout h1 {
+    margin-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+  .Dlayout #Dlayout-container {
+    display: block;
+    height: auto;
+  }
+  .Dlayout #Dlayout-container #Dbutton {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .Dlayout #Dlayout-container #Dbutton #Dmodals-container {
+    margin-top: 1em;
+    height: 3em;
+    display: flex;
+    width: 100%;
+  }
+  .Dlayout #Dlayout-container #Dbutton #Dmodals-container #modal-container0 {
+    height: 100%;
+  }
+  .Dlayout #Dlayout-container #Dbutton #Dmodals-container #modal-container1 {
+    height: 100%;
+  }
+
+  .Dlayout #Dbutton .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar2),
+      var(--primary)
+    );
+    width: 90%;
+    height: 100%;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    font-size: 1em;
+  }
+  .Dlayout #Dbutton .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--hoverbuttons1)
+    );
+  }
+  .Dlayout #Dlayout-container #Dbutton .open-button1 {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar2),
+      var(--primary)
+    );
+    width: 90%;
+    height: 100%;
+    margin-top: 0;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    box-shadow: 8px 8px 5px var(--backgroud);
+    font-size: 1em;
+  }
+
+  .Dlayout #Dlayout-container #Dbutton .open-button1:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--hoverbuttons1)
+    );
+  }
+  .Dlayout #Dtext {
+    width: 100%;
+  }
+
+  .Dlayout #Dimage-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+  }
+
+  .Dlayout #Dimage-container #Dimage {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .Elayout {
+    height: auto;
+    width: 100%;
+    padding-top: 1em;
+    min-height: 90vh;
+  }
+  .Elayout #Elayout-container {
+    margin-top: 5em;
+    height: auto;
+  }
+  .Elayout #Eimage-container {
+    aspect-ratio: 2/1;
+  }
+  .Elayout #Eimage-container #Eimage {
+    width: 100%;
+    height: 100%;
+  }
+  .Elayout #Elayout-container #index-button-container {
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+  .Elayout
+    #Elayout-container
+    #index-button-container
+    #index-buttons
+    .button-index-container {
+    height: 15em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+  }
+  .Elayout
+    #Elayout-container
+    #index-button-container
+    #index-buttons
+    .jump-buttons {
+    width: 100%;
+    height: 100%;
+    font-size: 2.8em;
+  }
+  .Flayout {
+    height: auto;
+    width: 100%;
+    font-size: 1em;
+    min-height: 90vh;
+  }
+  .Flayout #Flayout-container {
+    height: auto;
+  }
+  .Flayout #Flayout-container #Fcolumn1 {
+    margin-top: 2em;
+  }
+  .Flayout #Flayout-container #Fcolumn1 .titles {
+    font-size: 1.8em;
+  }
+  .Flayout #Flayout-container #Fcolumn1 #act-inicio-img {
+    width: 70%;
+  }
+  .Flayout #Flayout-container #Fcolumn2 {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Flayout-img {
+    width: 100%;
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Fdownload-button {
+    margin-top: 1em;
+    width: 80%;
+    height: 15%;
+    font-size: 1.2vw;
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 3em;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--backgroud);
+  }
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Flayout #Flayout-container #Fcolumn2 #Flink-container #Flink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+  }
+
+  .Hlayout {
+    height: auto;
+    font-size: 1em;
+    width: 95%;
+    margin-bottom: 2em;
+    min-height: 90vh;
+  }
+
+  .Hlayout #Hlayout-container {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 {
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Htitle1 {
+    height: auto;
+    margin: 0;
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Htext1 {
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    justify-content: center;
+    height: auto;
+  }
+  .Hlayout #Hlayout-container #Hrow2 {
+    height: auto;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Htitle2 {
+    height: auto;
+    margin: 0;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Htext2 {
+    height: auto;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow1
+    #Hmodals-container1
+    #Hmodals-container-ind0,
+  #Hmodals-container-ind1,
+  #Hmodals-container-ind2,
+  #Hmodals-container-ind3,
+  #Hmodals-container-ind4 {
+    margin-bottom: 1em;
+    display: flex;
+    height: 3em;
+    justify-content: center;
+  }
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container0,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container1,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container2,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container3,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 #modal-container4 {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    width: 90%;
+  }
+  .Hlayout
+    #Hlayout-container
+    #Hrow2
+    #Hmodals-container2
+    #Hmodals-container-ind5,
+  #Hmodals-container-ind6,
+  #Hmodals-container-ind7,
+  #Hmodals-container-ind8,
+  #Hmodals-container-ind9 {
+    margin-bottom: 1em;
+    display: flex;
+    height: 3em;
+    justify-content: center;
+  }
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container5,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container6,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container7,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container8,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 #modal-container9 {
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3,
+  .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4 {
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button5,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button6,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button7,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button8,
+  .Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button9 {
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+  .Glayout {
+    height: auto;
+    font-size: 1em;
+    width: 95%;
+    margin-left: 1em;
+    min-height: 90vh;
+  }
+
+  .Glayout #Glayout-container {
+    height: auto;
+  }
+  .Glayout #Glayout-container #Grow1 {
+    margin-top: 2em;
+    width: 100%;
+    height: auto;
+  }
+  .Glayout #Glayout-container #Grow1 #Gtitle1 {
+    height: auto;
+    font-size: 1.8em;
+  }
+
+  .Glayout #Glayout-container #Grow2 {
+    width: 100%;
+    height: auto;
+    margin-top: 5em;
+    margin-bottom: 3em;
+  }
+  .Glayout #Glayout-container #Grow2 #Gtitle2 {
+    margin: 0;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+  .Glayout #Glayout-container #Grow2 #Grow3 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Glayout #Grow3 #Gmodal-container {
+    width: 100%;
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .Glayout #Grow3 #Gnext-modal {
+    margin-top: 3em;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--primary),
+      var(--auxiliar)
+    );
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    font-size: 1em;
+    box-shadow: 8px 8px 10px var(--backgroud);
+    border: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar2),
+      var(--hoverbuttons0)
+    );
+  }
+
+  .Ilayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+  .Ilayout #Ilayout-container {
+    height: auto;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 {
+    margin-top: 1em;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 #Icolumn1-image-container {
+    width: 100%;
+  }
+  .Ilayout
+    #Ilayout-container
+    #Icolumn1
+    #Icolumn1-image-container
+    #Iimage-column1 {
+    width: 100%;
+  }
+  .Ilayout #Ilayout-container #Icolumn1 #Ititle {
+    font-size: 1.8em;
+  }
+  .Ilayout #Ilayout-container #Icolumn2 {
+    padding-top: 1em;
+  }
+  .Ilayout #Ilayout-container #Icolumn2-image-container {
+    height: auto;
+  }
+  .Ilayout #Ilayout-container #Icolumn2-image-container #Iimage-column2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 80%;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      var(--primary),
+      var(--secondary)
+    );
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px var(--backgroud);
+  }
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Ilayout #Ilayout-container #Icolumn2 #Ilink-container #Ilink {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+  }
+
+  .Jlayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+    min-height: 90vh;
+  }
+  .Jlayout #Jlayout-container #Jtitle {
+    height: auto;
+    margin-top: 1em;
+    font-size: 1.8em;
+  }
+  .Jlayout #Jlayout-container #Jtext-container {
+    margin-top: 1em;
+    height: auto;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container {
+    height: auto;
+    position: relative;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel {
+    height: auto;
+    width: 100%;
+    margin-top: 7em;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel #Jimage {
+    height: auto;
+    width: 100%;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #JnextSlide-container {
+    position: absolute;
+    margin: 0;
+    top: -5em;
+    right: 0;
+    width: 3em;
+    height: 5em;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container #JprevSlide-container {
+    position: absolute;
+    margin: 0;
+    top: -5em;
+    left: 0;
+    width: 3em;
+    height: 5em;
+  }
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton {
+    background-image: linear-gradient(
+      to right,
+      var(--auxiliar),
+      var(--secondary)
+    );
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    font-size: 2.5em;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton:hover {
+    background-color: var(--primary);
+    color: black;
+  }
+
+  .Llayout {
+    height: auto;
+    font-size: 1em;
+    width: 100%;
+    min-height: 90vh;
+  }
+
+  .Llayout #Llayout-container {
+    height: auto;
+  }
+
+  .Llayout #Llayout-container #Ltitle {
+    margin-top: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+
+  .Llayout #Llayout-container #Ltext-container {
+    margin-top: 1em;
+    height: auto;
+  }
+
+  .Llayout #Llayout-container #Ltext {
+    margin: 0;
+    height: auto;
+  }
+
+  .Llayout #Llayout-container #Lmodals-container {
+    text-align: center;
+    padding-right: auto;
+    display: block;
+    height: auto;
+    margin-top: 1.5em;
+  }
+  .Llayout #Llayout-container #Lmodals-container #Lmodals-container-ind0,
+  #Lmodals-container-ind1,
+  #Lmodals-container-ind2,
+  #Lmodals-container-ind3,
+  #Lmodals-container-ind4 {
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
+
+  .Llayout #Llayout-container #Lmodals-container #modal-container0,
+  #modal-container1,
+  #modal-container2,
+  #modal-container3,
+  #modal-container4 {
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+  }
+
+  .Llayout #Llayout-container #Lmodals-container .open-button0,
+  .open-button1,
+  .open-button2,
+  .open-button3,
+  .open-button4 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    box-shadow: 10px 10px 5px var(--auxiliar2);
+    border: none;
+  }
+  .Mlayout {
+    padding-left: 1em;
+    padding-right: 1em;
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .Mlayout #Mlayout-container {
+    height: auto;
+  }
+  .Mlayout #Mlayout-container #Mtitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+
+  .Mlayout #Mlayout-container #Mtext-container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: auto;
+  }
+  .Mlayout #Mlayout-container #Mtext {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .Mlayout #Mcarousel-container {
+    height: auto;
+    border-radius: 1em;
+  }
+  .Mlayout #Mcarousel-container #Mbuttons {
+    width: 100%;
+    height: 9em;
+  }
+  .Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .Mlayout #Mcarousel-container #Mparag-container {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding-top: 2em;
+  }
+  .Mlayout #Mcarousel-container #Mparag-container #Mparag {
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container .paragButton {
+    height: 3em;
+    border-radius: 1em;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+  }
+
+  .Nlayout {
+    height: auto;
+    font-size: 1em;
+    min-height: 90vh;
+    width: 100%;
+  }
+  .Nlayout #Nlayout-container {
+    height: auto;
+  }
+  .Nlayout #Nlayout-container #Ntitle {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+  .Nlayout #Nlayout-container #Ntext-container {
+    height: auto;
+    display: block;
+  }
+  .Nlayout #Nlayout-container #Ntext-container #Nrow1,
+  #Nrow2 {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .Nlayout #Nlayout-container #Ntext-container #Ntext-containerLeft,
+  #Ntext-containerRight {
+    height: auto;
+  }
+  .Nlayout #Nlayout-container #Ntext-container #Ltext1,
+  #Ltext2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .Nlayout #Nlayout-container #Nmodals-containerLeft,
+  #Nmodals-containerRight {
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerLeft #modal-container0 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight #modal-container1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+  }
+  .Nlayout #Nlayout-container #Nmodals-containerLeft .open-button0 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8em;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-container .open-button0:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+
+  .Nlayout #Nlayout-container #Nmodals-containerRight .open-button1 {
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    color: white;
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8em;
+    box-shadow: 10px 10px 5px var(--backgroud);
+    border: none;
+  }
+  .Nlayout #Nlayout-container #Nmodals-container .open-button1:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--hoverbuttons0),
+      var(--hoverbuttons1)
+    );
+  }
+  .Olayout {
+    font-size: 1.1em;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    min-height: 90vh;
+  }
+
+  .Olayout #Olayout-container {
+    height: auto;
+  }
+  .Olayout #Otitle {
+    margin-left: 1em;
+    height: auto;
+    font-size: 1.8em;
+  }
+
+  .Olayout #Olayout-container #Oimage-container {
+    width: 100%;
+  }
+  .Playout {
+    width: 100%;
+    margin-bottom: 6em;
+    min-height: 90vh;
+  }
+  .Playout h1 {
+    margin: 0;
+    height: auto;
+    font-size: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  .Playout #Playout-container #Pbutton {
+    width: 12%;
+    height: 40em;
+    z-index: 100;
+  }
+  .Playout #Playout-container #Pbutton .open-button0 {
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    margin-left: 0;
+    padding-left: 0.3em;
+    font-size: 1.5em;
+    border-radius: 1em;
+  }
+  .Playout #Playout-container #Pbutton .open-button1 {
+    width: 100%;
+    border-radius: 1em;
+    height: 30em;
+    font-size: 1.5em;
+    margin-left: 0;
+    padding-left: 0.3em;
+  }
+
+  .mymodal {
+    height: 90vh;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  #menu-header {
+    display: inline;
+  }
+}
