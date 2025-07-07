@@ -1,11 +1,20 @@
 :root {
-  --primary: #030d7b;
-  --auxiliar: #7000e0;
-  --secondary: #2f67e1;
-  --backgroud: #c0f9ff;
-  --hoverbuttons1: #5da7e1;
+  --primary: #2a9144;
+  --auxiliar: #1cae81;
+  --secondary: #7aeba6;
+  --backgroud: #e9f4ec;
+  --hoverbuttons1: #1cae81;
   --hoverbuttons0: #ca05fa;
-  --auxiliar2: #7e64dc;
+  --hoverbuttons2: #1cae81;
+  --auxiliar2: #7d8e90;
+  --auxiliar1: #e9f4ec;
+
+  --primary2: #737373;
+  --secondary2: #c06190;
+  --backgroud2: #cacce5;
+  --secondary3: #1cae81;
+  --auxiliar3: #7000e0;
+  --hoverbuttons12: #5da7e1;
 }
 html {
   margin: 0;
@@ -89,7 +98,7 @@ body {
   background-image: linear-gradient(
     to right,
     var(--auxiliar2),
-    var(--hoverbuttons1)
+    var(--hoverbuttons2)
   );
 }
 
@@ -123,7 +132,7 @@ body {
 .titles {
   text-align: left;
   font-size: 1.6vw;
-  color: var(--secondary);
+  color: var(--auxiliar);
 }
 
 .text {
@@ -201,7 +210,7 @@ hr {
 
 .Clayout .button-index-container .index-big-buttons {
   background-color: transparent;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   margin: 0;
   border: none;
   height: 100%;
@@ -261,7 +270,7 @@ hr {
   border-radius: 50%;
   border: none;
   color: white;
-  box-shadow: 10px 10px 5px var(--backgroud);
+  box-shadow: 10px 10px 5px var(--auxiliar1);
   font-size: 1.2vw;
 }
 .Dlayout #Dbutton .open-button0:hover {
@@ -279,7 +288,7 @@ hr {
   border: none;
   border-radius: 20px;
   color: white;
-  box-shadow: 8px 8px 5px var(--backgroud);
+  box-shadow: 8px 8px 5px var(--auxiliar1);
   font-size: 1.1vmax;
 }
 
@@ -750,7 +759,7 @@ hr {
 .Klayout #Klayout-container #Ktext1 {
   padding-left: 2%;
   padding-right: 2%;
-  background-color: var(--backgroud);
+  background-color: var(--backgroud2);
 }
 .Klayout #Klayout-container #Kimage-container {
   height: 30%;
@@ -1043,7 +1052,7 @@ hr {
   border-radius: 50%;
   border: none;
   color: white;
-  box-shadow: 10px 10px 5px var(--backgroud);
+  box-shadow: 10px 10px 5px var(--auxiliar1);
   font-size: 1.2vw;
 }
 .Playout #Pbutton .open-button0:hover {
@@ -1061,7 +1070,7 @@ hr {
   border: none;
   border-radius: 20px;
   color: white;
-  box-shadow: 8px 8px 5px var(--backgroud);
+  box-shadow: 8px 8px 5px var(--auxiliar1);
   font-size: 1.1vmax;
 }
 
@@ -1267,7 +1276,7 @@ hr {
     color: white;
     background-image: linear-gradient(
       to right,
-      var(--secondary),
+      var(--auxiliar),
       var(--primary)
     );
     width: 48%;
@@ -1806,7 +1815,7 @@ hr {
     color: white;
     background-image: linear-gradient(
       to right,
-      var(--secondary),
+      var(--auxiliar),
       var(--primary)
     );
     width: 50%;
@@ -2808,7 +2817,7 @@ hr {
     border-radius: 0.5em;
     border: none;
     color: white;
-    box-shadow: 10px 10px 5px var(--backgroud);
+    box-shadow: 10px 10px 5px var(--auxiliar1);
     font-size: 1em;
   }
   .Dlayout #Dbutton .open-button0:hover {
@@ -2830,7 +2839,7 @@ hr {
     border: none;
     border-radius: 0.5em;
     color: white;
-    box-shadow: 8px 8px 5px var(--backgroud);
+    box-shadow: 8px 8px 5px var(--auxiliar1);
     font-size: 1em;
   }
 
@@ -3769,7 +3778,7 @@ hr {
     border-radius: 0.5em;
     border: none;
     color: white;
-    box-shadow: 10px 10px 5px var(--backgroud);
+    box-shadow: 10px 10px 5px var(--auxiliar1);
     font-size: 1em;
   }
   .Dlayout #Dbutton .open-button0:hover {
@@ -3791,7 +3800,7 @@ hr {
     border: none;
     border-radius: 0.5em;
     color: white;
-    box-shadow: 8px 8px 5px var(--backgroud);
+    box-shadow: 8px 8px 5px var(--auxiliar1);
     font-size: 1em;
   }
 
