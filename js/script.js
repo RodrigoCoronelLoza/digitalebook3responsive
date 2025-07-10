@@ -26,6 +26,7 @@ function renderPage() {
   const overlay = document.getElementById("overlay");
   const indexPermanent = document.getElementById("index-permanent");
   const deviceWidth = window.innerWidth;
+  const nextButton = document.getElementById("next-button");
   let imagesToTake = {};
   let popUpToTake = {};
 
@@ -46,6 +47,12 @@ function renderPage() {
     indexPermanent.style.display = "none";
   } else {
     indexPermanent.style.display = "block";
+  }
+
+  if (currentPage === Object.keys(textData).length - 1) {
+    nextButton.style.visibility = "hidden";
+  } else {
+    nextButton.style.visibility = "visible";
   }
 
   if (deviceWidth <= 767) {
@@ -635,7 +642,6 @@ const handleDomCLick = (event) => {
   const clickedBtn = event.target;
   const classIdentifier = clickedBtn.className.slice(0, 4);
   let modal = {};
-  console.log(classIdentifier);
   if (classIdentifier === "open") {
     modal = document.querySelector(clickedBtn.dataset.modalTarget);
     console.log(modal);

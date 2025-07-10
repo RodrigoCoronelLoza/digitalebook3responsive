@@ -4232,7 +4232,8 @@ hr {
   .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel {
     height: auto;
     width: 100%;
-    margin-top: 7em;
+    margin-top: 2em;
+    margin-bottom: 7em;
   }
   .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel #Jimage {
     height: auto;
@@ -4241,7 +4242,7 @@ hr {
   .Jlayout #Jlayout-container #Jcarousel-container #JnextSlide-container {
     position: absolute;
     margin: 0;
-    top: -5em;
+    bottom: -3em;
     right: 0;
     width: 3em;
     height: 5em;
@@ -4249,7 +4250,7 @@ hr {
   .Jlayout #Jlayout-container #Jcarousel-container #JprevSlide-container {
     position: absolute;
     margin: 0;
-    top: -5em;
+    bottom: -3em;
     left: 0;
     width: 3em;
     height: 5em;
