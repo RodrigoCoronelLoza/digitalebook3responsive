@@ -3694,6 +3694,10 @@ hr {
     min-height: 90vh;
     width: 100%;
     font-size: 1em;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Blayout #Blayout-container {
     height: auto;
@@ -3715,6 +3719,10 @@ hr {
     height: auto;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Clayout #Clayout-container {
     height: auto;
@@ -3739,6 +3747,10 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Dlayout h1 {
     margin-top: 1em;
@@ -3832,6 +3844,10 @@ hr {
     width: 100%;
     padding-top: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Elayout #Elayout-container {
     margin-top: 5em;
@@ -3872,6 +3888,10 @@ hr {
     width: 100%;
     font-size: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Flayout #Flayout-container {
     height: auto;
@@ -3942,6 +3962,10 @@ hr {
     width: 95%;
     margin-bottom: 2em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
 
   .Hlayout #Hlayout-container {
@@ -4070,6 +4094,10 @@ hr {
     width: 95%;
     margin-left: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
 
   .Glayout #Glayout-container {
@@ -4142,6 +4170,10 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Ilayout #Ilayout-container {
     height: auto;
@@ -4215,6 +4247,10 @@ hr {
     width: 100%;
     margin-bottom: 2em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Jlayout #Jlayout-container #Jtitle {
     height: auto;
@@ -4281,6 +4317,10 @@ hr {
     font-size: 1em;
     width: 100%;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
 
   .Llayout #Llayout-container {
@@ -4358,6 +4398,10 @@ hr {
     min-height: 90vh;
     width: 100%;
     margin-bottom: 2em;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Mlayout #Mlayout-container {
     height: auto;
@@ -4419,6 +4463,10 @@ hr {
     font-size: 1em;
     min-height: 90vh;
     width: 100%;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Nlayout #Nlayout-container {
     height: auto;
@@ -4524,6 +4572,10 @@ hr {
     margin-bottom: 1em;
     margin-top: 1em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
 
   .Olayout #Olayout-container {
@@ -4542,6 +4594,10 @@ hr {
     width: 100%;
     margin-bottom: 6em;
     min-height: 90vh;
+    background-image: url("../images/CHA99.png");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top-right;
   }
   .Playout h1 {
     margin: 0;
